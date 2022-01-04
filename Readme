@@ -1,0 +1,30 @@
+How to run this PIC project on GPU and CPU:
+
+For GPU:
+
+(1) access to the frontend machines in CRC ND
+	
+(2) request access to the node with GPU's installed
+	qrsh -q gpu-debug -l gpu_card=1
+	
+(3) load the modules into GPU node
+	module load cuda
+	module show cuda
+	
+(3*) you may need to load the intel compiler for icpc as well
+	module load intel/19.0 
+
+(4) cd to the directory
+
+(5)type in terminal: ./run.sh
+
+The above shell script does the following things
+a)compile the files (nvcc *.cu main.cpp -std=c++11) 
+b)runs the output a.out(./a.out)
+c)plots the data from the text file of outputs(PICresult.txt) using python code in (plot.py)
+
+To run the simulation on CPU:
+
+Just change the input.h to define (device_CPU) file and run the shell script run.sh (./run.sh)
+
+
