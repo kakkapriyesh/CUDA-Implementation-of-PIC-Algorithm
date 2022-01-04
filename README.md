@@ -13,13 +13,22 @@ The dependencies are- Cuda , gcc and python 3.0
 Go to the directory and run the shell script 
 
 ```
-$
+./run.sh
 ```
 
 The shell script executes following commands:
-a)compile the files (nvcc *.cu main.cpp -std=c++11) 
-b)runs the output a.out(./a.out)
+a)compile the files 
+```
+nvcc *.cu main.cpp -std=c++11
+```
+b)runs the output a.out
+```
+./a.out
+```
 c)plots the data from the text file of outputs(PICresult.txt) using python code in (plot.py)
+```
+python plot.py
+```
 
 To run the simulation on CPU:
 
