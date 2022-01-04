@@ -8,6 +8,10 @@ The code is direct implemntation of [blog](https://medium.com/swlh/create-your-o
 
 Extensive discription of the files and the results are given in the documentation.pdf attached with this repository. 
 
+The code gives out the last time step plot as output with y axis as velocity and x axis as position:
+
+[Time step = 50 sec](pic_output_t50.png)
+
 # Building
 
 The dependencies are- CUDA , GCC and Python 3.0
