@@ -11,7 +11,11 @@ Extensive discription of the files and the results are given in the documentatio
 The dependencies are- Cuda , gcc and python 3.0
 
 Go to the directory and run the shell script 
+
+...
 $./run.sh
+...
+
 The shell script executes following commands
 a)compile the files (nvcc *.cu main.cpp -std=c++11) 
 b)runs the output a.out(./a.out)
