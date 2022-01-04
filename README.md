@@ -10,7 +10,7 @@ Extensive discription of the files and the results are given in the documentatio
 
 The code gives out the last time step plot as output with y axis as velocity and x axis as position:
 
-[Time step = 50 sec](pic_output_t50.png)
+![Time step = 50 sec](pic_output_t50.png)
 
 # Building
 
