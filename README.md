@@ -29,7 +29,8 @@ b) Runs the output file
 ./a.out
 ```
 
-c) Plots the data from the text file of outputs (PICresult.txt) using python code in (plot.py)
+c) Plots the data from the text file of outputs (PICresult.txt) using python code in (plot.py) 
+
 ```
 python plot.py
 ```
