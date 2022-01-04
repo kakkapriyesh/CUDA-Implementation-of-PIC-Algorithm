@@ -18,18 +18,18 @@ Go to the directory and run the shell script
 
 The shell script executes following commands:
 
-a) Compile the files 
+a) Compiles all the files 
 ```
 nvcc *.cu main.cpp -std=c++11
 ```
 
-b) Runs the output a.out
+b) Runs the output file
 
 ```
 ./a.out
 ```
 
-c) Plots the data from the text file of outputs(PICresult.txt) using python code in (plot.py)
+c) Plots the data from the text file of outputs (PICresult.txt) using python code in (plot.py)
 ```
 python plot.py
 ```
