@@ -8,7 +8,7 @@ Extensive discription of the files and the results are given in the documentatio
 
 # Building
 
-The dependencies are- Cuda , gcc and python 3.0
+The dependencies are- CUDA , GCC and Python 3.0
 
 Go to the directory and run the shell script 
 
