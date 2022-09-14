@@ -1,4 +1,7 @@
 # CUDA-Implementation-of-PIC-Algorithm
+
+Co-author - Deepak Akhare
+
 This is a learning exercise to use GPU for scientific computing. The code is written in CUDA and C++ to simulate two electron beams passing through each other in opposite directions. This interesting phenomenon is called the Two-Stream Instability.
 
 Significant speed up is obtained with GPUs as compared to CPUs 
