@@ -1,8 +1,6 @@
 # CUDA-Implementation-of-PIC-Algorithm
 
-Co-author - Deepak Akhare
-
-This is a learning exercise to use GPU for scientific computing. The code is written in CUDA and C++ to simulate two electron beams passing through each other in opposite directions. This interesting phenomenon is called the Two-Stream Instability.
+This is a learning exercise to use GPU for scientific computing. The code is written in CUDA and C++ to simulate two electron beams passing through each other in opposite directions. This interesting phenomenon is called the two-stream instability.
 
 Significant speed up is obtained with GPUs as compared to CPUs 
 
@@ -38,7 +36,7 @@ b) Runs the output file
 ./a.out
 ```
 
-c) Plots the data from the text file of outputs (PICresult.txt) using python code in (plot.py) 
+c) Plots the data from the text file of outputs (PICresult.txt) using a python code in (plot.py) 
 
 ```
 python plot.py
@@ -46,4 +44,4 @@ python plot.py
 
 To run the simulation on CPU:
 
-Just change the input.h to define (device_CPU) file and run the shell script run.sh (./run.sh)
+Just change the input.h to define (device_CPU) and run the shell script run.sh (./run.sh)
